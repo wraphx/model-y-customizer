@@ -7,8 +7,8 @@ import { useCustomization } from '../context/Customization';
 import { state } from '../components/ColorPicker';
 
 
-export function Darkhorse(props) {
-  const { nodes, materials } = useGLTF('models/DarkHorse.glb')
+export function ModelY(props) {
+  const { nodes, materials } = useGLTF('models/ModelY.glb')
   const { overlay } = useCustomization()
   const snap1 = useSnapshot(state)
 
